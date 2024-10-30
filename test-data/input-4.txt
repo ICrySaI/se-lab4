@@ -1,0 +1,10 @@
+# test all single fire mode branches
+GT4500,2,0,1,0 #primary fires, secondary fires, primary fires, all empty
+TORPEDO,SINGLE # sould fire
+TORPEDO,SINGLE # should fire
+TORPEDO,SINGLE # should fire
+TORPEDO,SINGLE # should fail
+GT4500,2,0,0,0 #primary fires, secondary empty, all empty
+TORPEDO,SINGLE # should fire
+TORPEDO,SINGLE # should fire
+TORPEDO,SINGLE # should fail
