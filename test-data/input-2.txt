@@ -1,0 +1,3 @@
+# Create a ship with a primary store that will always fail, but a secondary store that could fire
+GT4500,10,1,10,0
+TORPEDO,SINGLE # sould fail
